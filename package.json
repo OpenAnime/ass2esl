@@ -1,0 +1,49 @@
+{
+    "name": "@openanime/ass2esl",
+    "version": "1.1.0",
+    "author": "SpongeBed81",
+    "description": "Utilities to convert Advanced SubStation Alpha (ASS) to Expressive Subtitle Language (ESL)",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "tsup && pnpm start",
+        "build": "tsup",
+        "lint": "prettier --check . && eslint .",
+        "lint:fix": "prettier --write . && eslint . --fix",
+        "test": "pnpm build && pnpm lint"
+    },
+    "keywords": [
+        "ass",
+        "esl",
+        "subtitle",
+        "subtitles",
+        "substation alpha",
+        "aegisub",
+        "advanced substation alpha",
+        "expressive subtitle language"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.1.1",
+        "@swc/core": "^1.4.17",
+        "@types/node": "^20.12.7",
+        "eslint": "^9.1.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "eslint-plugin-simple-import-sort": "^12.1.0",
+        "globals": "^15.1.0",
+        "prettier": "^3.2.5",
+        "tslib": "^2.6.2",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5",
+        "typescript-eslint": "^7.8.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "ass-compiler": "^0.1.15"
+    },
+    "packageManager": "pnpm@9.3.0"
+}
