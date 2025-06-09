@@ -5,6 +5,16 @@ import { IdGenerator } from './id-generator';
 import { generateMetaHCL } from './meta-processor';
 import { processStyles } from './style-processor';
 
+/**
+ * Converts a string of ASS subtitle content into ESL (Example Subtitle Language) format.
+ *
+ * This function processes the `info`, `styles`, and `dialogues` sections of the ASS file,
+ * converting them into their ESL equivalents.
+ *
+ * @param assContent - The full string content of the ASS file.
+ * @returns The generated ESL content as a single string.
+ *
+ */
 export default function convertASStoESL(assContent: string): string {
     const compiledASS = compile(assContent, {});
 
