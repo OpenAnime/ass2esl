@@ -33,6 +33,7 @@ export const CUE_PROPERTY_MAP: Record<string, string> = {
     end: 'out',
     style: 'style',
     alignment: 'align',
+    layer: 'layer',
     slices: 'slices', // special handling for text and tags from fragments
     pos: 'position', // special handling for \pos
     move: 'move', // special handling for \move
