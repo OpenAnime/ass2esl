@@ -1,6 +1,6 @@
 {
     "name": "@openanime/ass2esl",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "SpongeBed81",
     "description": "Utilities to convert Advanced SubStation Alpha (ASS) to Expressive Subtitle Language (ESL)",
     "main": "dist/index.js",
