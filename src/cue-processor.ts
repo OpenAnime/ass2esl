@@ -76,8 +76,6 @@ export function processDialogues(
 
                 const autoGenerateStyleDiff = diffObj(fragmentBefore.tag, fragment.tag);
 
-                console.log(autoGenerateStyleDiff);
-
                 let generatedName = false;
 
                 for (const [key, value] of Object.entries(autoGenerateStyleDiff)) {
