@@ -6,7 +6,7 @@ import { generateMetaHCL } from './meta-processor';
 import { processStyles } from './style-processor';
 
 /**
- * Converts a string of ASS subtitle content into ESL (Example Subtitle Language) format.
+ * Converts a string of ASS subtitle content into ESL (Expressive Subtitle Language) format.
  *
  * This function processes the `info`, `styles`, and `dialogues` sections of the ASS file,
  * converting them into their ESL equivalents.
